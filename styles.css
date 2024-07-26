@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    height: auto;
+}
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+a{
+    color: #101A24;
+    text-decoration: none;
+}
+
+.btn{
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: #EA6D27;
+    font-size: 1.rem;
+    border-radius: 20px 2px 20px 2px;
+    border: none;
+}
+
+.btn-1{
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    background-color: #101A24;
+    font-size: 1.rem;
+    border-radius: 20px 2px 20px 2px;
+    border: none;
+}
+
+.btn:hover{
+    transition: all 300ms ease;
+    box-shadow: 0px 2px 5px rgb(15, 14, 14);
+}
+
+
+section{
+    padding-top: 4vh;
+    height: 100vh;
+    min-height: fit-content;
+    box-sizing: border-box;
+    
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    margin:0 120px;
+    gap: 5rem;
+    margin-bottom: 200px;
+}
+
+#intro img{
+    width: 6.56rem;
+    height:6.50rem;
+    float:left;
+}
+
+.intro-text-heading{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.intro-text-heading h1{
+    color: #101A24;
+    font-family: "David Libre", serif;
+    font-size: 4.38rem;
+    font-weight: bold;
+}
+
+.intro-text-paragraph{
+    margin-bottom: -30px;
+}
+
+.intro-text-paragraph p{
+    color:#5C6574;
+    font-size: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    gap: 2rem;    
+}
+
+
+
+#pic-container img{
+    position: absolute;
+    top:250px;
+    right:150px;
+    width: 512px;
+    height: 716px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 70px 25px 70px 25px;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: left; /* Align icons horizontally in the center */
+     /* Align icons vertically in the center */
+    gap: 15px; /* Space between icons */
+}
+
+#socials-container img {
+    width: 2rem; /* Set a width for the icons */
+    height: 2rem; /* Set a height for the icons */
+}
+
+#dish1-container .dish1{
+    position: absolute;
+    top: 515px;
+    right:520px;
+    width: 300px;
+    height: 300px;
+
+}
+
+/*Special Dishes*/
+
+#special-dishes{
+    background-color: #F3F4F4;
+    padding:0 120px;
+    height: auto;
+    margin-bottom: 200px;
+    
+}
+
+.spec-title{
+    padding-top: 70px;
+    color:#101A24;
+    text-align: center;
+    font-family: "David Libre", serif;
+    font-size: 3.75rem;
+}
+
+
+.special-dishes-text-p{
+    color:#5C6574;
+    font-size: 1rem;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 130px;
+}
+.food-card-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.food-cards{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    background-color: #F3F4F4;
+    border: white solid;
+    border-radius: 70px 25px 70px 25px;
+    padding: 10px 10px;
+    margin:20px;
+}
+.food-cards-1{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    background-color: #ffffff;
+    border: white solid;
+    border-radius: 70px 25px 70px 25px;
+    padding: 10px 10px;
+    margin:20px;
+}
+
+.food-card-image{
+    width: 207px;
+    height: 130px; /*Adjust the space between the image and header*/
+}
+
+.food-card-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 10px;
+}
+
+
+.food-card-header{
+    font-family: "David Libre", serif;
+    font-size: 1.25rem;
+    color: #101A24;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.food-card-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: .94rem;
+    color: #5C6574;
+    width: 100%;
+    line-height: 1.5;
+}
+
+
+.food-card-image .price-tag{
+    width: 54px;
+    height: 54px;
+    position: relative;
+    top: -250px;
+    left: 170px;
+}
+
+/*Welcome to ourS resturant styling*/
+.big-dish-2{
+    width: 640px;
+    height: 640px;
+    
+}
+
+.container{
+    display: flex; 
+    padding-top: 160px;  
+    gap: 30px;
+    padding-bottom: 140px;
+}
+    
+.section2-text-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 210px;
+}
+.section2-text-container h1{
+    color:#101A24;
+    font-family: "David Libre", serif;
+    font-size: 3.75rem;
+    font-weight: bold;
+    
+}
+
+.section2-text-container p{
+    padding-top: 30px;
+    font-size: 1.00rem;
+    line-height: 1.81;
+}
+
+.section2-text-container .btn-container{
+    padding-top: 25px;
+}
+/* Expert Chef section*/
+#expert-chef{
+    padding:0 120px;
+    height: auto;
+}
+
+
+.expert-title{
+    font-size: 3.75rem;
+    color:#101A24;
+    font-family: "David Libre", serif;
+    font-weight: bold;
+}
+
+.expert-p{
+    font-size: 1rem;
+    color: #5C6574;
+    line-height: 1.81;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+article{
+    color: #5C6574;
+    line-height: 1.31;
+    font-size: 0.94rem;
+}
+
+.article-container article {
+    display: flex;
+    flex: 0 0 calc(50% - 2.5rem); /* Adjusts each article to take up half the container width minus the gap */
+    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.article-pic-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.chef-pic img {
+    width: 507px;
+    height: 695px;
+    display: block;
+    position: relative;
+    top: -260px;
+}
+
+.expert-btn{
+    position: relative;
+    top: -420px;
+    padding-left: 100px;
+}
+
+#testominals{
+    background-color: #F3F4F4;
+    padding:0 120px;
+    height: auto;
+}
+
+.test-title{
+    padding-top: 70px;
+    color:#101A24;
+    text-align: center;
+    font-family: "David Libre", serif;
+    font-size: 3.75rem;
+}
+
+.test-p{
+    color:#5C6574;
+    font-size: 1rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    top:50px;
+}
+
+.testominal-1{
+    margin: auto;
+    background-color:white;
+    border-radius: 80px 30px 80px 30px;
+    width: 639px;
+    height: 380px;
+}
+
+.testominal-1 img{
+    padding-top: 30px;
+    position: relative;
+    left:25%;
+}
+
+.testominal-1-text{
+    color: #5C6574;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 1.81;
+}
+
+.testominal-1-text-name{
+    color: #101A24;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.testominal-1-text-postion{
+    color: #5C6574;
+    font-size: .94rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*Newsletter CSS*/
+.subscribe-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.news-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.subscribe-box{
+    padding: 55px 100px;
+    background: url("./assests/cta-img-bg\ 1.png");
+    background-size: cover;
+    border-radius: 32px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.subscribe-box p{
+    font-family: "David Libre", serif;
+    font-size: 2.5rem;
+    color: white;
+    line-height: 50px;
+}
+
+.subscribe-box form{
+    width: 500px;
+    height: 60px;
+    border-radius: 15px 15px 15px 15px;
+    background:white;
+    position: relative;
+    margin: 40px auto auto auto;
+}
+
+.subscribe-box form input{
+    position: absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+    padding-left: 25px;
+    color: #131212;
+    outline: none;
+    
+}
+
+.subscribe-box form input::placeholder{
+    color: #101A24;
+
+}
+
+.subscribe-box form button{
+    background: #EA6D27;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 80%;
+    border: transparent;
+    padding: 15px 20px;
+    margin: 5px 10px ;
+    margin-top: 6px;
+    font-size: 0.90rem;
+    color: #ffffff;
+}
+
+#footer-section{
+    color: #ffffff;
+    padding:0 120px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.footer-text-p{
+    color: #5C6574;
+    padding-top: 20px;
+    font-size: 1rem;
+    line-height: 1.81;
+}
+
+.text{
+    height: 300px;
+}
+
+.time-title{
+    color: #101A24;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+.time-containers{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+    line-height: 1.81;
+}
+
+.time-containers p{
+    color: #5C6574;
+    font-size: 1rem;
+}
+
+.footer-logo{
+    padding-top: 50px;
+}
+
+.footer-headers-container{
+    display: flex;
+    max-width: fit-content;
+    position: relative;
+    left: 500px;
+    top: -220px;
+    gap: 100px;
+}
+
+.footer-headers-container #socials-container{
+padding-top: 25px;
+}
+
+.footer-headers-container .headers-title{
+    color: #101A24;
+    font-size: 0.75rem;
+}
+
+.footer-headers-container p{
+    color: #5C6574;
+    line-height: 2.50;
+}
+
+footer .copyright{
+    color: #5C6574;
+}
