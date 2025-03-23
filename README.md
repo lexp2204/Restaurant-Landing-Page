@@ -4,28 +4,40 @@ A stylish restaurant landing page built with HTML & CSS (No JavaScript). Based o
 
 
 🚀 Live Demo
+
 🔗 View Project
 
 
 
 📌 Features
+
 ✅ Fully static restaurant landing page
+
 ✅ Modern & clean design
+
 ✅ Based on a Figma Community design
+
 ✅ Well-structured and semantic HTML & CSS
+
 ✅ Easy to customize
 
 📷 Screenshot
 (Add a screenshot of your project here to showcase the design.)
 
 🛠️ Technologies Used
+
 HTML5
+
 CSS3
+
 Figma for design reference
 
 📈 Future Improvements
+
 🔹 Make the page fully responsive
+
 🔹 Add animations & transitions
+
 🔹 Improve accessibility & SEO
 
 📄 Credits
