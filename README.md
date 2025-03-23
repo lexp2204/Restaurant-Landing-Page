@@ -18,11 +18,6 @@
 
 ---
 
-## 📷 Screenshot  
-*(Add a screenshot of your project here to showcase the design.)*  
-
----
-
 ## 🛠️ Technologies Used  
 - HTML5  
 - CSS3  
