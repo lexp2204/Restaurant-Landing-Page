@@ -5,7 +5,7 @@
 ![Restaurant Landing Page](landing_page.png)  
 
 ## 🚀 Live Demo  
-🔗 [View Project](https://lexp2204.github.io/Restaurant-Landing-Page/) *(If deployed, otherwise remove this section.)*  
+🔗 [View Project](https://lexp2204.github.io/Restaurant-Landing-Page/)
 
 ---
 
