@@ -2,8 +2,11 @@
 A stylish restaurant landing page built with HTML & CSS (No JavaScript). Based on a Figma design by Issac Donvoh.
 
 
+
 🚀 Live Demo
 🔗 View Project
+
+
 
 📌 Features
 ✅ Fully static restaurant landing page
@@ -26,7 +29,9 @@ Figma for design reference
 🔹 Improve accessibility & SEO
 
 📄 Credits
+
 🎨 Design by: Issac Donvoh
+
 💻 Developed by: Me [Alexis Penn]
 
 🌟 Show Your Support
